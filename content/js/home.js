@@ -54,7 +54,7 @@ $.work = function(data) {
 
 var Task = {
 
-  url:"Content/js/worker.js",
+  url:"content/js/worker.js",
   
   works: [],
   
