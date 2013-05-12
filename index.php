@@ -1,1 +1,5 @@
-<body>test</body>
+<?php
+
+echo "test";
+
+?>
