@@ -15,7 +15,7 @@
 
       <div>
         <h1>Client-side MapReduce with Web Workers!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p class="lead">This is a model to assist system to run with large data set in parallel on the client side. We call it Client-side MapReduce with Web Workers (CMRW2). This model inherits the design philosophy from the server-side MapReduce and applies the client-side Web Worker technology. However, the implementation environment is different. Rather than server-side MapReduce that is executed on clustered servers and implemented in distributed systems [30], this CMRW2 runs in a single browser client. The goal of CMRW2 is to enhance the local capability for performing complex data- related tasks.</p>
       </div>
 
       </hr>
@@ -37,7 +37,7 @@
                </select></p>
        <p><span>Data From: </span><input id="from" type="number" value="1"/></p>
        <p><span>Data To: </span><input id="to" type="number" value="1000000"/></p>
-       <p><span>Number of Workers: </span><input id="map" type="number" value="10"/></p>
+       <p><span>Number of Processes: </span><input id="map" type="number" value="10"/></p>
        <a class="btn btn-large btn-success" href="javascript:Task.init()">Start</a>
        <progress class="hidden"  max="100">
        </div>
